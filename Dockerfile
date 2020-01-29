@@ -8,7 +8,7 @@ RUN apk add --no-cache --update \
       nodejs \
       npm
 
-RUN git config --global user.email "peak@echln.net"
+RUN git config --global user.email "akito@evolution-x.org"
 RUN git config --global user.name "Akito Mizukito"
 
 CMD ["bash"]
